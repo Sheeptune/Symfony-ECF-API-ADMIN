@@ -5,8 +5,8 @@ easy_admin:
                form:
                  fields:
                      - "name"
-                     - "createdAt"
-                     - "dateEnd"
+                     - "startdate"
+                     - "enddate"
                      - { property: 'students', type: 'entity', type_options: { choice_label: 'firstname'}}
          Student:
                class:  App\Entity\Student

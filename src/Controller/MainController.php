@@ -55,4 +55,14 @@ class MainController extends Controller
             'items' => $items,
         ]);
     }
+
+    /**
+     * @Route("/secured", name="main_secured")
+     */
+    public function secured(Request $request)
+    {
+        return $this->render('main/secured.html.twig', [
+            // ...
+        ]);
+    }
 }
