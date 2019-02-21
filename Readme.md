@@ -1,8 +1,6 @@
 # ECF Symfony Api-Admin
 
-/*  Symfony-ECF-API-ADMIN,
-    Sheeptune 2019©
-    BSD: https://www.freebsd.org/copyright/freebsd-license.html */
+Symfony-ECF-API-ADMIN, Sheeptune 2019© BSD: https://www.freebsd.org/copyright/freebsd-license.html
 
 This project is a Promotion Management App based on an API platform generated through Symfony.
 The app allows its users to create, modify and delete (**by performing CRUD operations**) both promotions and students after proceding to a **registration step**.
